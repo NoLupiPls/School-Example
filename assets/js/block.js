@@ -1,4 +1,4 @@
-let url = 'School-Example/Block/index.html';
+let url = 'Block/index.html';
 window.addEventListener('devtoolschange', event => {
     window.location = url;
 });
