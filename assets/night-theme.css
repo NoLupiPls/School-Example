@@ -229,3 +229,12 @@ body.dark-theme {
     background-color: #282828;
     color: #fff;
 }
+
+.btn-toggle {
+    height: 27px;
+    border: 1px solid #CDFC6E;
+    border-radius: 4px;
+    background-color: #282828;
+    color: #CDFC6E;
+    font-size: 15px;
+}

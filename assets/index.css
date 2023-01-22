@@ -123,7 +123,7 @@ body {
   margin: 0 15px;
   position: relative;
 
-  color: #008cff;
+  color: #355cd6;
   text-decoration: none;
 
   transition: color .2s linear;
@@ -136,7 +136,7 @@ body {
   border-radius: 3px;
   opacity: 0;
 
-  background-color: #4191fa;
+  background-color: #355cd6;
   position: absolute;
   top: 100%;
   left: 0;
@@ -144,14 +144,14 @@ body {
   transition: opacity .2s linear;
 }
 .nav__link:hover {
-  color: #167dff;
+  color: #355cd6;
 }
 .nav__link:hover:after,
 .nav__link.active:after {
   opacity: 1;
 }
 .nav__link.active {
-  color: #167dff;
+  color: #355cd6;
 
 }
 
@@ -228,4 +228,13 @@ body {
 body.dark-theme {
   background-color: #1a1a1a;
   color: #fff;
+}
+
+.btn-toggle {
+  height: 27px;
+  border: 1px solid #355cd6;
+  border-radius: 4px;
+  background-color: #e9eaea;
+  color: #355cd6;
+  font-size: 15px;
 }
