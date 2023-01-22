@@ -234,11 +234,13 @@ body.dark-theme {
   height: 27px;
   border: 1px solid #355cd6;
   border-radius: 4px;
-  background-color: #e9eaea;
+  background-color: rgba(255, 255, 255, 0.71);
   color: #355cd6;
   font-size: 15px;
 }
 
+
+/*  WRAPPER&FOOTER  */
 .wrapper {
   height: 300px;
   font-size: 14px;

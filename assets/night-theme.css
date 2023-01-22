@@ -234,16 +234,36 @@ body.dark-theme {
     height: 27px;
     border: 1px solid #CDFC6E;
     border-radius: 4px;
-    background-color: #282828;
+    background-color: rgba(40, 40, 40, 0.74);
     color: #CDFC6E;
     font-size: 15px;
 }
 
-#footer {
-    background-color: #282828;
-    color: #CDFC6E;
+/*  WRAPPER&FOOTER  */
+.wrapper {
+    height: 300px;
     font-size: 14px;
-    text-align: center;
-    padding: 20px;
-    margin-top: 50px;
+    background-color: #282828;
+    color: #ffffff;
+}
+
+.footer__text {
+    padding-top: 10px;
+    margin-left: 50px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer__text1 {
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.footer__text5 {
+    margin-top: 30px;
+}
+
+.tme {
+    margin-left: 10px;
+    color: #CDFC6E;
 }
