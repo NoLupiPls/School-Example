@@ -9,7 +9,7 @@
     муниципальное бюджетное общеобразовательное учреждение города Новосибирска «Средняя общеобразовательная школа
     № 69».">
 
-    <link rel="stylesheet" href="assets/index.css">
+    <link rel="stylesheet" href="assets/index.css" id="theme-link">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap"
           rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -23,11 +23,12 @@
                 <a class="header__logo" href="index.html">Школа №69</a>
                 <nav class="nav">
                     <a class="nav__link active" href="#"></a>
-                    <a class="nav__link active">Главная</a>
+                    <a class="nav__link" id="Main__page">Главная</a>
                     <a class="nav__link" href="#pod__tit">О школе</a>
                     <a class="nav__link" href="#pod__tit2">Документы</a>
                     <a class="nav__link" href="Pages/#">Контакты</a>
                     <a class="nav__link" href="http://raspisanie.nikasoft.ru/18109723.html">Расписание</a>
+                    <button class="btn-toggle">Тёмный режим</button>
                 </nav>
             </div>
         </div>
@@ -95,5 +96,6 @@
         <div class="text__doc">Документ</div>
         <p></p>
     </div>
+    <script src="assets/js/night-theme.js"></script>
 </body>
 </html>

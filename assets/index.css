@@ -223,3 +223,9 @@ body {
   color: #282828;
 
 }
+
+/*  NIGHT THEME  */
+body.dark-theme {
+  background-color: #1a1a1a;
+  color: #fff;
+}
