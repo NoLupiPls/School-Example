@@ -11,6 +11,17 @@ body {
   background-color: #ebebeb;
 }
 
+/*   SCROLLBAR   */
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background: #e9eaea;
+}
+::-webkit-scrollbar-thumb {
+  background: #355cd6;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -157,6 +168,7 @@ body {
   text-decoration: none;
 
   backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
   filter: brightness(92%);
   transition: background .17s linear, color .17s linear;
 }
