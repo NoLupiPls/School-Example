@@ -238,3 +238,12 @@ body.dark-theme {
     color: #CDFC6E;
     font-size: 15px;
 }
+
+#footer {
+    background-color: #282828;
+    color: #CDFC6E;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}

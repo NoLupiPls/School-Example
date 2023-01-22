@@ -238,3 +238,31 @@ body.dark-theme {
   color: #355cd6;
   font-size: 15px;
 }
+
+.wrapper {
+  height: 300px;
+  font-size: 14px;
+  background-color: #282828;
+  color: #fff;
+}
+
+.footer__text {
+  padding-top: 10px;
+  margin-left: 50px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer__text1 {
+  font-size: 30px;
+  margin-left: 5px;
+}
+
+.footer__text5 {
+  margin-top: 30px;
+}
+
+.tme {
+  margin-left: 10px;
+  color: white;
+}
