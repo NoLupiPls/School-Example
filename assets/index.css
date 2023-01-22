@@ -213,8 +213,9 @@ body {
 }
 
 .pod2 {
-    margin-top: 50px;
-    margin-left: 50px;
+  font-family: "Unbounded", sans-serif;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 .text__doc {
