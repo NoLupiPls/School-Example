@@ -1,18 +1,18 @@
 $(function() {
     let header = $('.header');
-    let mobileTel = $('.header__tel').first(); // сохранем в переменную первый элемент с классом header__tel
-    let hederHeight = header.height(); // вычисляем высоту шапки
+    let mobileTel = $('.header__tel').first();
+    let hederHeight = header.height();
 
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1) {
             header.addClass('header_fixed');
             $('body').css({
-                'paddingTop': 0 + 'px' // делаем отступ у body, равный высоте шапки
+                'paddingTop': 0 + 'px'
             });
         } else {
             header.removeClass('header_fixed');
             $('body').css({
-                'paddingTop': '0px' // удаляю отступ у body, равный высоте шапки
+                'paddingTop': '0px'
             })
         }
 
